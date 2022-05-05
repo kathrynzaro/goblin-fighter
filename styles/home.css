@@ -58,18 +58,20 @@ form {
 .gobs {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: stretch;
     margin-top: 10px;
-    background-color: black;
-    color: white;
-    padding: 15px;
-    border-radius: 15px;
+    cursor: pointer;
 }
 
 .goblin {
     display: flex;
     flex-direction: row;
     padding: 10px;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+    margin-bottom: 10px;
 }
 
 .goblin p {
