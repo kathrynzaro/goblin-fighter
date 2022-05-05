@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Great+Vibes&family=IM+Fell+French+Canon&family=IM+Fell+French+Canon+SC&family=Josefin+Sans&family=Limelight&family=Poiret+One&family=Press+Start+2P&family=Tenor+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/home.css">
@@ -14,26 +17,28 @@
 
 <body>
     <main>
-        <div class="left">
-            <div id="defeated">
-                <p>You've defeated <span id="defeated-num">0</span> gobs</p>
+        <section class="main-page">
+            <div class="left">
+                <div id="defeated">
+                    <p>YOU'VE DEFEATED <span id="defeated-num">0</span> GOBLINS</p>
+                </div>
+                <div id="player">
+                    <p>
+                        YOU HAVE <span id="player-hp">11</span> HEALTH POINTS
+                    </p>
+                </div>
+                <img src="./assets/goblin.png" alt="goblin" width="250px">
             </div>
-            <div id="player">
-                <p>
-                    your health points: <span id="player-hp">3</span>
-                </p>
+            <div class="right">
+                <div class="new-gob">
+                    <form id="add-gob"> 
+                        <input type="text" name="goblin" id="goblin" placeholder="NAME YOUR ENEMY">
+                        <button>CHALLENGE<br>GOBLIN</button>
+                    </form>
+                    <div class="gobs">ENEMIES</div>
+                </div>
             </div>
-        </div>
-        <div class="right">
-            <div class="new-gob">
-                <form id="add-gob"> 
-                    add your enemy
-                    <input type="text" name="goblin" id="goblin">
-                    <button>challenge goblin</button>
-                </form>
-                <div class="gobs">Enemies</div>
-            </div>
-        </div>
+        </section>
     </main>
     <script type="module" src="./app.js"></script>
 </body>

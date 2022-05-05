@@ -1,1 +1,90 @@
 /* add home page styles here */
+
+body {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+
+.main-page {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 50px;
+    font-family: 'Press Start 2P', cursive;
+    padding: 50px;
+    border-radius: 20px;
+    font-size: .7rem;
+    width: 90%;
+    height: 90%;
+    text-align: center;
+}
+
+button, input {
+    font-family: 'Press Start 2P', cursive;
+    padding: 5px;
+    line-height: 20px;
+}
+
+input {
+    padding: 10px;
+    text-align: center;
+}
+
+form {
+    background-color: black;
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 45%
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 45%;
+}
+
+
+.gobs {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.goblin {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.goblin p {
+    padding: 10px;
+}
+
+#defeated, #player {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    margin-bottom: 50px;
+}
+
+#player-hp, #defeated-num {
+    color: limegreen;
+}
+ 

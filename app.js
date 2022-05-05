@@ -4,10 +4,10 @@ const form = document.getElementById('add-gob');
 const gobList = document.querySelector('.gobs');
 // let state
 let defeatedCount = 0;
-let playerHP = 3;
+let playerHP = 11;
 let goblins = [
-    { name: 'joe', hp: 7 },
-    { name: 'kat', hp: 3 },
+    { name: 'GRIPHOOK', hp: 7 },
+    { name: 'BOGROD', hp: 3 },
 ];
 // set event listeners 
   // get user input
@@ -35,3 +35,5 @@ function displayGoblins() {
         gobList.append(goblinEl);
     }
 }
+
+displayGoblins();
