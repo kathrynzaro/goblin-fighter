@@ -11,6 +11,10 @@ export function renderGoblin(goblin) {
     const healthEl = document.createElement('p');
     healthEl.textContent = goblin.hp < 0 ? 0 : goblin.hp;
 
+    if (goblin.hp < 0) {
+        goblinEl.classList.add('dead');
+    }
+
     goblinEl.append(nameEl, faceEl, healthEl);
     return goblinEl;
 }

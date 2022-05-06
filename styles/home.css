@@ -11,25 +11,29 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 50px;
+    margin: 50px auto;
     font-family: 'Press Start 2P', cursive;
-    padding: 50px;
+    padding: 25px;
     border-radius: 20px;
-    font-size: .7rem;
-    width: 90%;
-    height: 90%;
+    width: 75%;
     text-align: center;
+    font-size: .5rem;
 }
 
 button, input {
     font-family: 'Press Start 2P', cursive;
     padding: 5px;
-    line-height: 20px;
+    line-height: 15px;
+}
+
+button {
+    font-size: .5rem;
 }
 
 input {
     padding: 10px;
     text-align: center;
+    font-size: .5rem;
 }
 
 form {
@@ -38,6 +42,7 @@ form {
     border-radius: 15px;
     display: flex;
     flex-direction: column;
+
 }
 
 .right {
@@ -66,10 +71,10 @@ form {
 .goblin {
     display: flex;
     flex-direction: row;
-    padding: 10px;
+    justify-content: space-around;
+    align-items: flex-end;
     background-color: black;
     color: white;
-    padding: 15px;
     border-radius: 15px;
     margin-bottom: 10px;
 }
@@ -84,9 +89,10 @@ form {
     padding: 10px;
     border-radius: 15px;
     margin-bottom: 50px;
+    line-height: 20px;
 }
 
 #player-hp, #defeated-num {
     color: limegreen;
+    font-size: .6rem;
 }
- 
