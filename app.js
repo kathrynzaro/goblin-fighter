@@ -67,7 +67,7 @@ function goblinClickHandler(goblin) {
             alert('GAME OVER');
         }
     } else {
-        alert(`Hoorah! You dodged ${goblin.name}!`)
+        alert(`Hoorah! You dodged ${goblin.name}!`);
     }
 }
 
